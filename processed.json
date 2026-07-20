@@ -1,7 +1,10 @@
 {
  "note": "Gmail message IDs already included in a Daily Brief (or intentionally skipped). Producer reads this before summarizing and updates it in the same commit as index.html.",
  "processed": {
+  "19f818bae77baffa": "2026-07-21",
+  "19f81777ffac139b": "2026-07-21",
   "19f7c50b13da0bbf": "2026-07-20",
+  "19f7f032f8fb72df": "2026-07-20",
   "19f7a17445081fe3": "2026-07-19",
   "19f7726bed7f4d25": "2026-07-19",
   "19f7216d17114f21": "2026-07-18",
