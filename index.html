@@ -4,189 +4,186 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>Daily Brief — Sunday 26 July 2026</title>
+<title>Daily Brief — Monday 27 July 2026</title>
 <style>
-  :root{
-    --paper:#F7F1E6; --ink:#23211C; --soft:#5C574D; --faint:#8E877A;
-    --forest:#2E6B45; --orange:#E8611C; --rule:#E5DCCB; --chip:#EFE7D6;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{
-    background:var(--paper); color:var(--ink);
-    font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height:1.5; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:640px;margin:0 auto;padding:28px 20px 40px}
-  .masthead{text-align:center;padding:10px 0 18px;border-bottom:2px solid var(--ink)}
-  .masthead h1{
-    font-size:26px;letter-spacing:.32em;text-transform:uppercase;font-weight:800;
-    color:var(--forest);text-indent:.32em;
-  }
-  .dateline{margin-top:6px;font-size:13px;color:var(--soft);letter-spacing:.04em}
-  .section{margin-top:30px}
-  .sechead{display:flex;align-items:baseline;gap:9px;border-bottom:1px solid var(--rule);padding-bottom:7px;margin-bottom:16px}
-  .tick{width:10px;height:10px;background:var(--orange);border-radius:2px;flex:0 0 auto;align-self:center}
-  .sechead h2{font-size:15px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
-  .sechead .geo{font-size:12px;color:var(--faint);font-weight:500;letter-spacing:.06em}
-  .story{margin-bottom:18px}
-  .story h3{font-size:16.5px;font-weight:600;line-height:1.35;margin-bottom:4px}
-  .story h3 a{color:var(--forest);text-decoration:none}
-  .story h3 a:hover{text-decoration:underline}
-  .story p{font-size:14.5px;color:var(--ink)}
-  .src{font-size:12px;color:var(--faint);margin-top:3px}
-  .followup{display:inline-block;background:var(--chip);color:var(--soft);font-size:11px;
-    padding:1px 7px;border-radius:9px;margin-left:6px;vertical-align:1px;letter-spacing:.02em}
-  .subhead{font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
-    color:var(--soft);margin:20px 0 10px;padding-top:4px}
-  ul.also{list-style:none}
-  ul.also li{
-    font-size:14px;margin-bottom:9px;padding-left:16px;position:relative
-  }
-  ul.also li::before{
-    content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--orange)
-  }
-  ul.also a{color:var(--forest);text-decoration:none;font-weight:600}
-  ul.also a:hover{text-decoration:underline}
-  ul.also .lsrc{color:var(--faint);font-size:11.5px}
-  .empty{
-    background:var(--chip);border:1px solid var(--rule);border-radius:8px;
-    padding:13px 16px;font-size:13.5px;color:var(--soft)
-  }
-  .footer{margin-top:36px;border-top:2px solid var(--ink);padding-top:14px;font-size:12px;color:var(--faint)}
-  .footer p{margin-bottom:7px}
-  .footer strong{color:var(--soft);font-weight:600}
+:root{
+--paper:#F7F1E6;--ink:#23211C;--soft:#5C574D;--faint:#8E877A;
+--forest:#2E6B45;--orange:#E8611C;--rule:#E5DCCB;--chip:#EFE7D6;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+-webkit-font-smoothing:antialiased;line-height:1.5}
+.wrap{max-width:640px;margin:0 auto;padding:28px 20px 56px}
+.masthead{text-align:center;padding-bottom:14px;border-bottom:2px solid var(--forest)}
+.masthead h1{margin:0;font-size:23px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--forest)}
+.dateline{margin-top:7px;font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.section{margin-top:34px}
+.section-head{display:flex;align-items:baseline;gap:9px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+.tick{width:9px;height:9px;background:var(--orange);border-radius:2px;flex:0 0 auto;transform:translateY(-1px)}
+.section-head h2{margin:0;font-size:12.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--ink)}
+.subhead{margin:26px 0 2px;font-size:11.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--faint)}
+.story{padding:16px 0;border-bottom:1px solid var(--rule)}
+.story:last-child{border-bottom:none}
+.story h3{margin:0 0 5px;font-size:16.5px;font-weight:600;line-height:1.32}
+.story h3 a{color:var(--forest);text-decoration:none}
+.story h3 a:hover{text-decoration:underline}
+.story p{margin:0;font-size:14.5px;color:var(--soft)}
+.src{margin-top:7px;font-size:12px;color:var(--faint)}
+ul.bullets{list-style:none;margin:10px 0 0;padding:0}
+ul.bullets li{position:relative;padding-left:16px;margin:9px 0;font-size:14.5px;color:var(--soft)}
+ul.bullets li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--orange)}
+ul.bullets a{color:var(--forest);text-decoration:none;font-weight:600}
+ul.bullets a:hover{text-decoration:underline}
+.card{margin-top:14px;padding:14px 16px;background:var(--chip);border-radius:6px;font-size:14px;color:var(--soft)}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+.chip{background:var(--chip);border-radius:20px;padding:5px 11px;font-size:12px;color:var(--soft)}
+.followup{display:inline-block;margin-top:6px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--orange);font-weight:700}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);font-size:12px;color:var(--faint)}
+footer p{margin:0 0 7px}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <header class="masthead">
-    <h1>Daily Brief</h1>
-    <div class="dateline">Sunday 26 July 2026 · Sydney</div>
-  </header>
+<header class="masthead">
+  <h1>Daily Brief</h1>
+  <div class="dateline">Monday 27 July 2026 · Sydney</div>
+</header>
 
-  <!-- ============ HOME FRONT ============ -->
-  <section class="section">
-    <div class="sechead"><span class="tick"></span><h2>Home Front</h2><span class="geo">· Australia</span></div>
+<section class="section">
+  <div class="section-head"><span class="tick"></span><h2>Home Front · Australia</h2></div>
 
-    <div class="story">
-      <h3><a href="https://clicks.e.email.abc.net.au/f/a/ejPnjU2xwPbthnza0kPNAQ~~/AAQRxRA~/8P96tq7cPHGGt7Xe9p3gwZHjJnD7Izb_Nb82an-GPzhGtBsfgeS_eBDtecQmiFzoluDTeSuKyeexFiO3NA31ci15LLkP0BJfpwIq-96m5FUhd727g0HKR0R_t7qKhTIqgOBcpJv7j_d_SkRIjGzDuIIIl9I__zwN8-0kJIZ91igV4JtGVDFrfEQu8pAT4Ly3_ONY7MqhG2yJ8-Yx-FtA6m-RobJwH4kobXWHEwn0xzmGdPtUPVzetpWisp2yUmVt7FGRczwuo-H5uQT0CMaE3Jkmo4IlXtWBfnrFA_2YTU5L75xRr9i8aAdUG7o7wIsPt4ogf20jRXSiL-vlPrd9hf6pw4CPuUn48fzv3JFlEC0~">Families and police at odds over findings in Laos methanol poisoning case</a></h3>
-      <p>The families of six people who died in the suspected mass methanol poisoning at a Laos hostel — including two Australians — have rejected the outcome of the 20-month police investigation, describing its findings as "false".</p>
-      <div class="src">ABC News AM · Sun 26 Jul</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://clicks.e.email.abc.net.au/f/a/A9JbTTs3qtgXFh10xhS_1g~~/AAQRxRA~/KEKrKLRZM4DgMgWkO15N0NOvelmSnPDoAz_A4C0-qXMR18MvMlb7YvFs1fE6uBSdbi6R08u54EXTBb3TCKYGfKSAJxAHMjnxzGELJbP6OlJLSHxx6NfGJ5NkdiWWbra-drD-JqtntxY86HMJhYv4CLk0wL9IoaPeo-_wUlitsz3a5GFqvLofFnOAgUoo_JnRHPBqkgIgwD14wW6nYP0wwRG3spVfMAszbxer-fSN_m7VtIuQTeNgF-uoajVSxyeZiWt0bnR5i9b0H5EqW8wjhBDcMM622LpvDOxcfDV0LLAm9iGqfVARRrNkp3kyH41XaG8B7ttSO764rYoWkFiovnBuL_NQq5QQGtO8YeU_9e7r9LKCFcLTKNZpiMezLFTB">Forensic testing finds Chinese tomatoes behind &ldquo;Australian&rdquo; and &ldquo;Italian&rdquo; labels</a></h3>
+    <p>An eight-month Four Corners investigation had a leading lab test 221 processed tomato products from 39 brands. Twenty-two per cent failed country-of-origin testing and every one of those traced back to China, including most Leggo&rsquo;s paste products and home-brand lines at Coles and Aldi. Some of the failed products contained tomatoes that could be linked to Xinjiang, where allegations of forced Uyghur labour have been made.</p>
+    <div class="src">ABC News AM · 27 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://clicks.e.email.abc.net.au/f/a/tb2VqcCebRCgr5jKdQeqpA~~/AAQRxRA~/EdH7Q2x31sdDOViPKEmBMESX2R60jYVkso5z66m91UHpO57zVeSNIOefVmZVzXYAPtpAUy0A2El0i3MWIHvCDu4DbbBMencSpGeALwj2wG1Nf-bkBC64zCMrz91JIUcD0Cog3AXNU_K996tfhT2K-KhCiAT-Js7tIKSkjkZe_ZZPHW4-jDx2w80O5lfeJO1XsEvXvtNcVuNae6ibSwBDVNyDqeaxwOS_he-cPAwWlxD7vbq7z6sR5HdmBV-mkZ3b2oYd-KzGiLlQszw_SSY0SIHc0s_hitaPsN431YiltKhI0ixZdvoTFeWhdnJ8BmK-5dwaw_MvKE4h5g1IS60k3g~~">Labor 'comrades' seen but not heard</a></h3>
-      <p>Insiders' look at how Labor is keeping its internal policy fights behind closed doors — if a brawl happens where nobody hears it, did it really happen?</p>
-      <div class="src">ABC News AM · Sun 26 Jul</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://clicks.e.email.abc.net.au/f/a/-3OTl_KQaNA_NCpNCO4l4w~~/AAQRxRA~/CzmAyjoR-iIt5MJvAyTuOfn2TSoeSfmw6ds6V6Yzhr4VCJvp29Ia6Snlhs_Iqb5taFeUghhp_n4nPAuunttYQQHDrDu-kMPYL5YrHrh4P9_dWJ_jW1ChfqwHK8yM2c6vcUzI8woCxLQvnI1UsFYVR6MWh6rVGoC7TDDWh6-0KedLBHR6l9RuV-iVSlW3W-6gKCDstx-NiZsqojXcr5sixsKp9yBG95fp8aTqEubNz6ROsqI7yrcz80lnY3XvTaNDG3Gu5YhMgNARbui9LwnIB_t1RTL_fu1soW4yrlnhOTi9Qx3LQq5ge_HKxXbbLbcapy26ZyExYnsDFlR1qxMFoK9QMwc5Bp1u7a5j-Yk8dVU~">Jacinta Allan faces a leadership challenge within days</a></h3>
+    <p>Factional convenors from both the right and left met on Sunday night and concluded the Victorian Premier no longer holds a majority of caucus. The ABC understands a delegation will ask her to resign today, with a challenge likely to follow if she refuses — months out from a state election.</p>
+    <div class="src">ABC News AM · 27 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://clicks.e.email.abc.net.au/f/a/uj1y-Yo_TywkTDGrYturDA~~/AAQRxRA~/USREW_pVnGlstvfKnQiyqxf09fknRvzql86v62RQ_3BrddERme7ql3GaKFSNfIUJIvjyHs7-J_i0wQA829Qv_svMYiRN55UwFNMPKC4Q8UnZjAeol-mFRFOJTjEGByjpKUOB3zMH1u1PbPV-7c_0d9yiKBN5A7A2LpLqZSEzKL1CW4ZpGaThYmf_ilHIIyJJwgP2UaebRzL_jNd9d4ctd3_WYVlJWOyqFKcViqGz4uXDudweKqQcqgpukcCTOmUzptgZ19GvpFkhgBBPhuhUqWXESYXo0CqBLcmc35Kku2LtYiNeaOBYYc4SYgLNVzAeZjDEBSwsrPieXVVIUaljXdnapzJ_AI4za8oYdncSooWHRL-A58TyflU4jtRQx4hj">'RFK Jr spillover effect' seeing fewer newborns get crucial vitamin K</a></h3>
-      <p>Rates of parents consenting to vitamin K injections for newborns are dropping in Australia, as vaccine misinformation from US anti-vax communities spreads on social media.</p>
-      <div class="src">ABC News AM · Sun 26 Jul</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://clicks.e.email.abc.net.au/f/a/aZMRoFwNPEpowNm3pixP-Q~~/AAQRxRA~/LNW0k2E4IKpVKjxc05TTVFl_mGSPohrPkWnL3gEd1sJ0BqXhCVFFzYakLZCqsgklEh134fD4McwPSRV9JBUxcqATwsqd6ETqsx9RVBGCZ_VSXCVJSt9BTrTUXUWetIUW7q_oyJG9MPvH4UYFAOYsTuOOAt4XjWQ6ym4vUhfXGSePfzrf0axpMDhR6vjx4cYG498uh9Av1kqhg1AFOHTLK9GKwIeev2JGGT6TaESG2mPIRuyj1aN48fFhm2il_0Cp1Bp3DErlhJ4Iz-Mp5reAq3Y5uCOSbgXqFLirrMM5PchndfdYAmuLlfD_esHovRE-pDPRx0u7ml8uQj_bg6g2VQ~~">Kogan runs a &ldquo;clone&rdquo; site selling the same goods for more</a></h3>
+    <p>An ABC investigation found the online retailer operates a second storefront, Exclusive Brands, listing identical products at mostly higher prices. A former ACCC boss has expressed concern about the practice; Kogan says it has done nothing wrong.</p>
+    <div class="src">ABC News AM · 27 Jul</div>
+  </article>
 
-    <div class="subhead">Business &amp; markets</div>
+  <article class="story">
+    <h3><a href="https://clicks.e.email.abc.net.au/f/a/Q3x34c0QazFblWGRclsh5g~~/AAQRxRA~/oMuUB5JaadJlt2_RJ8zeTsJHdWb7r92YG5mU4_vDpsXFeLao9TaGCCO_kjEyWTiRwtnzerw7zKOtwoRLKBt0qLQWD5gloDWitRoiB1Tc9xv8L581-UUmpHiC2uPfy_SFHptaozloVpzZm_vA8WgoJeLo2le4GpNv9P2COWYvFXscYvpVcm4L6P86MRFmRtsZ1eoA4vkvLwxaBVgmHsIqTV5-MWCfq3e6XHplfUGOovfx4bm3Osk2VwOf51ZtUvBYXgHeujqi8Iy2a2FFMAK-muk4KDgsfKJmgXfB_7zVt6JvghEXdleynJdC86-6obbkV1JMGumYXR46824qyB5xbPcgtzabMUdu3dxul3i8wC0~">Kumanjayi White&rsquo;s family goes to court over the decision not to charge police</a></h3>
+    <p>The Warlpiri man died in May last year after being forcibly restrained by two officers in an Alice Springs supermarket. His family has launched legal action seeking to know who decided against prosecuting the officers involved, and why.</p>
+    <div class="src">ABC News AM · 27 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://clicks.e.email.abc.net.au/f/a/zUOL4auK_tgNSq0uD0It6w~~/AAQRxRA~/2m_l0t_LMDQL_pYhPMRmCklOp3fPN1w2T17POukeOFBovzfT1RVkafysfBBu5JzXxJiiocV4jln_mqw-wqVxc17XP7ySfs4VNReL8JUDMYM1oAY0UskS4WyHM9XnZSbd45yBNjRXS2l3uMiu1NNyJwtmvTS778sg_2Zd9sgltITlNjYOpNJfuetMTFKcBQtXjzy7kC-M2Qggh2mXbz0Eq0EZ6Jlp79yLoUaf1eWOah8-kCaurS61ZN5iseksnASHzNOXMlMm7YdD-CsOlLNX7_lPi8HpQcSMVOWP9YOKH1UMXAwqLqzjFMgHCZyRfQUke_qv6J1SykD0q_W7Uzel2VQn6BQW7ROQWjVeXKdQEvU~">Trillion-dollar super war chest waiting to be unleashed on green projects</a></h3>
-      <p>Australian super funds manage $4.5 trillion in retirement savings, but steering some of that war chest into the clean-energy transition is proving harder than it sounds.</p>
-      <div class="src">ABC News AM · Sun 26 Jul</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://clicks.e.email.abc.net.au/f/a/-3coLeHZNVTpLkWeyymGtw~~/AAQRxRA~/GolunoljoXzmk-Jar7S_MQ9IrvUuZLHQVywMGNr2f42dzEytvIg6O9toWTpN2EmJ1X6tzFlYJdBo4SmJa-_oG5CzgNL9xh_-VD9tv2iWqnVguoGq6QmRT-wil2DU4ec_vYQyRZghHjrRmvfZhHCmrhH22wBRb7O4jAQ4VCl0G3NBlxAmu5NeRj0GCiHjm2DkgZRClXXhSSUNLIhOFlb_9OEOA8Q50iuaSWCPxZUypTVPfuArhQCIRen-hompM69AC6Mmf886GXG0R6ZVXD24lmuE8GL6WXsHA8hS4A_G9qeiVCrwetoIuclnHzZIRCkEGzXCyWGa2Gys2AgH2a26uA~~">Previously secret reports show tunnel workers repeatedly over the silica limit</a></h3>
+    <p>Workers on some of Australia&rsquo;s most prominent infrastructure projects were exposed to silica dust at levels far beyond the workplace standard, according to documents that had not been made public.</p>
+    <div class="src">ABC News AM · 27 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://clicks.e.email.abc.net.au/f/a/69mARtDlIOqNzgmPIXucgA~~/AAQRxRA~/k0ulHMO44SW1555tft_8g8kmdU0G3-Y8af5tAgOAGm5H4mMvRhOTD0fIZkFhsZnmYMWDkE04i7arqcwZjmQC8Js5Lpb2pB_kbaXBFOodovsv4pk8Ruok-IFlGHkbs--8SLehwkZKJfbDw65HSFm6bKIQykZu-JPHzzL7ooTPJPWbczCZMCEew6i3_VYGR1zG65wLr5wZv1nkTeM8W8sFJvynxNct3pqwpuvDFigxcMHIIQpvK_9jkAhLPTQ3YvJGcKcl3DEtF4XFwyJKOulinmW040Vab5T2f1GSMuk5uyT7XPCXRe3fl3qOWEXcQm7c01G8zg_NMDduqgEblTZbGA~~">The generational shift that has pushed 'generic' shops to the wall</a></h3>
-      <p>A brutal year for Australian retail: high rents, wage increases and the cost-of-living squeeze are forcing big brands into hard calls — and reshaping which stores survive.</p>
-      <div class="src">ABC News AM · Sun 26 Jul</div>
-    </div>
+  <div class="subhead">Also today</div>
+  <ul class="bullets">
+    <li><a href="https://clicks.e.email.abc.net.au/f/a/QHfObSFkEzyzWgAfl6xWnQ~~/AAQRxRA~/HgATQ5H-CcxQUwOt2u2aA2j_YE-hnvK-c9cpJmWn6GVrvgseOK-opvntx58HXIsTkc_mfkEXYGdXS_YRR29nbiIF-bTJE-N0kXB47H1d0qR8cPo5WdS0l3e9f1ewEG0hr8ZYFg3dQKJ3Bi-P9XmB4UoNcAnQLQVOAl-D7_UiUripKmMgcs4A-JQybbkbFDc2neFd4YRXem25pRtd1GvbEOC0PvIOpjggDBpbAl0YqBwyK6lODdkP34EZFJ7mf_TKKhlMQl31tLqy9G7v0v4as9pmjUHYia4O4boamcoYQjEegg7XNZ8ZYri1tZ1FJD6-lQddkAiS1b-pZPsUO_XZ8KhnrOO6aocGFiLpx46XMV0~">AusAlert&rsquo;s first national test</a> sounds on phones nationwide at 2pm AEST, with states and territories raising their own alarms about the rollout.</li>
+    <li>Australia keeps piling up medals in Glasgow — Cameron McEvoy and Lani Pallister both struck gold overnight on <a href="https://clicks.e.email.abc.net.au/f/a/4edYJpNYYWQjUZxVk18M3g~~/AAQRxRA~/LNW0k2E4IKpVKjxc05TTVFl_mGSPohrPkWnL3gEd1sIKUEq22eDY85D7ZJ4xf6vChkUWbqLqST1RFG_bCkKy1rnuK1BHhuCEuqxhWHrWZ96FRQPGHoOIwExrH2NwY4URiWYzmDIw4g3wbl8lBgjtqOqQc6i3tfP3d4YX13Vgkd-8FlQS-iNUnpRBLsb1Wz2vCvZuYC86zrr6LUnBqiDrdC2feleQ3UV8QXGwq_uZjE8AI1jAI7prRl1iD32Awc5UzXCR8H9ezkBOmTZ1oWiiHtXsRVy23ojJx1AE2lY3n2nddAGdo2mvc3CZyh69O-U4Izu99mpG2SN7FfA3aHwR-Q~~">the Commonwealth Games live blog</a>.</li>
+    <li>Patricia Karvelas on the unseen trade-off in Labor&rsquo;s <a href="https://clicks.e.email.abc.net.au/f/a/zXjJ3aCUU9zaxMx-TpvolQ~~/AAQRxRA~/CzmAyjoR-iIt5MJvAyTuOfn2TSoeSfmw6ds6V6Yzhr7z32soUlhBvc5yvmAqPCigMPE_2Icp4sT-SyzuSjzsf7BPuzw8Q1LB0zEpsGYhr5fqk8Lm2th2-8K36h8bJ_Ym92hKgTMv7jQagSfurauAEhDCgz16B8bN5DHIZO31VtZhQ-BB_71IRqxa0R0NmitYWTIZaGobRKpU19coBgfThFw2TuECxyJ4XzYmSJwCZQsxo4DF4PTVF76AEHMrOsl2q0Wnok6mNMYS0ucUe1n7cVHsAgXa3cDQ_ds1Pyk6EdFAtBcHQvZLCyEOtpwJDpfr-uWJ84mc5cgq7vD0fvZP2psO9yEOv_uwAB33Fkxd3fE~">command-and-control conference culture</a>.</li>
+  </ul>
 
-    <div class="subhead">Also today</div>
-    <ul class="also">
-      <li><a href="https://clicks.e.email.abc.net.au/f/a/9huFDtSUxo6OJZ7Ia2cUlQ~~/AAQRxRA~/ofOlkro4lWltJEi_IxpDr6IRloUrv5MG7vesDakS-TL4nmM2GgyPNYNb_GMQxaXr4JGmZpoX77X_gcTllTljYfgC9thWkjffu0T1KPnNmAfnrS0UXIX_jR-lpseJi6mxhz5AnVkbcD1fUcacnttD7ID4Oq5Am6JwkmLYmxHbee9Y4h6rCv8_2zALyWQIqOxHz2TOSXE56GdJcEiiRU9X1kf1lUrtcK1Nbnb_jNqAMBsHFimdwRdJxokinXT3aggt4SN18y7F4WK14F1Nf7kxAO2wR27AycwEveuEpAnLd8XVx8cVnuHIoSLAuB2rTszbLP_bOe6Nie4CTRvsRak-8A~~">Commonwealth Games: gold for Aussie gymnasts as Williamson stuns in breaststroke</a> — Australia's swimmers chase a second-day gold rush after six golds on opening day. <span class="lsrc">ABC (live)</span></li>
-      <li><a href="https://clicks.e.email.abc.net.au/f/a/EiLB4PTXJnKl3ZMgNedJsA~~/AAQRxRA~/2KmUBZzR8ddJEbUGgLl4Qp0tYGiUBVwI79gC306Z0y19MfmJT4MX6f2afrc6rFqEXQL-82uiQ6dMwg5_JS8T1Voo9IUNu_tbHT5wNWS_cJNOGjDCo6sKLtTfM8UQoYCnbC2blVZhCZ7kqvbjj-4BZFOpkXZiflQBMV9KJKkiSYHQOBGedvFYTk5U7PFsU6ccb0VB9knWgv8gaGCXMtv7Spxx0VLqilPgamsRFhsD9ABvpr6ledOx1blDrdGOboWacgXv1v155rlK9Wvnu4PR91zF1DhrfGIokKVTE0sFUNJrbuHfI3bxlcMDfFUdFp430UPr3bETkpqiOlY7QnxY517GKPFJFH0ulBEkEEpcQ2M~">"We asked what you wanted to talk about most — here's what you told us"</a> — thousands of Australians share the issues that matter most to them. <span class="lsrc">ABC</span></li>
-    </ul>
-  </section>
+  <div class="subhead">Worth a detour</div>
+  <ul class="bullets">
+    <li><a href="https://clicks.e.email.abc.net.au/f/a/_izydE0LK3C25J6Le2TeYw~~/AAQRxRA~/X4rs_yz0LjcEQKyYe1FJepfGz3Chd8lt4udeZB21YoVX540ad3rrj13LwtLkbioOUVI122N8zwy1_Xi93aPCbGeZ9ojsCy7U4MBfQrqcP3_tpFplPOGHQVqFaJ-Vzu4p9Trui1X15kVOH20DkDSgwpq_dCqv1p-oS2ITZnEb4ybAzplGFcSoNMokUdOjxsVv7rmkArxzX2g3fmtm8bnruYiMxkGqP2z5ER9-H9LFdR4M0C4WvZTRv7UqOgYvBENja8h6afwVwmnAAHza8K7iQuUuuvzX7NGO36hn5Td7KUVDhOXWBAMMKFytpB9nJyD8WDrSXHpRIs5RJwcdKGugp2UPkma0pEcEzD4Aj_E9tg8~">Luke Bateman earned $400,000 a year and gambled all of it</a> — the ex-Raider retired $250,000 in debt and now argues the government&rsquo;s proposed gambling reforms don&rsquo;t do &ldquo;the bare minimum&rdquo;.</li>
+    <li><a href="https://clicks.e.email.abc.net.au/f/a/dNVgZoNTbcEsLlwWoj4sBg~~/AAQRxRA~/0V65m6ofKtDo5ZCIFNnzDV1qCZ8lfsnt7EeMUF1fPQsGzDlVjIgI17f2onCArexJdPsDVI4TR6WTwxFX8stUlmW_54AfbNLGQqanWQbLEjsTJpUkxdEcWKU-dy_MExMq5TEAU3bda604PfPSgLwYIKvEVXflFqDUToyfiNv1SrQaETlvq9BZsR-253XIxmW23Y2tDnUsN9ZCzWf4hhwKez14_2PXZJG4oJgt2IBZaFE_zFiEjyAt43lDEh-BYu5lsbmRUl7707EA1Ramye0pHz9T3cI8KZjsyMJktnLbZ9XjaCnG-PXkhqqYReLGheDQnN2HZg1u-p1sDYtQNfiWUd2LrAf6HL4CVBkgKXPk1tJauzGBkeHoXXe6R3U3ek21">Pulled lifeless from the water as a baby after falling from a refugee boat</a>, Victoria Belando Nicholson is now a Commonwealth Games swimming gold medallist.</li>
+  </ul>
+</section>
 
-  <!-- ============ WORLD VIEW ============ -->
-  <section class="section">
-    <div class="sechead"><span class="tick"></span><h2>World View</h2><span class="geo">· Global</span></div>
+<section class="section">
+  <div class="section-head"><span class="tick"></span><h2>World View · Global</h2></div>
 
-    <div class="story">
-      <h3><a href="https://www.wsj.com/world/middle-east/iran-war-us-escalation-cycle-8d90061e?mod=djem10point">The U.S.–Iran war is becoming a war of attrition</a><span class="followup">follow-up</span></h3>
-      <p>Five months in, Washington and Tehran are hitting the limits of what force can achieve. As Trump threatens to widen the bombing campaign and Iran's militia allies broaden the war, the WSJ's Jared Malsin argues the conflict risks becoming a prolonged test of endurance rather than a decisive showdown.</p>
-      <div class="src">WSJ 10-Point · Sat 25 Jul (US)</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://www.wsj.com/world/middle-east/saudi-arabias-vast-oil-supplies-now-increasingly-depend-on-a-single-exit-d8033082?mod=djem10point">Saudi oil is running out of exits</a></h3>
+    <p>Since the Iran war began, Saudi Arabia has routed crude around the Strait of Hormuz via the Bab al-Mandeb and the Red Sea. Houthi attacks are now threatening that workaround, pushing cargoes onto a longer, costlier and technically harder journey through the Suez Canal — potentially the last viable way out.</p>
+    <div class="src">WSJ What&rsquo;s News &amp; The 10-Point · 27 Jul</div>
+    <span class="followup">Follows 17 Jul: the race to find routes around Hormuz</span>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://clicks.e.email.abc.net.au/f/a/5IdIiM_cUJhXU8emcH2LcQ~~/AAQRxRA~/8P96tq7cPHGGt7Xe9p3gwZHjJnD7Izb_Nb82an-GPzhGtBsfgeS_eBDtecQmiFzo1QL0LVx-9iJQrngwVMKGwGjhXtqd2-gxq25KotmcDjwjVqXm1ssiZjmQmMR0MsSD__sAxTUSbw6zEafvlmieVU6hI-h__k5rjAknbErusArkWwJU_iC2Mug_fMvV5s7qbWX8btSURXeINx3h6SqKrSqVE_FNsi-SBSWBY2Vtsg4ixjjDv5TY93aTmWnZCYwMfZIwIWuDIDDIFeyAhMHHH_1PZXt8CbyM9GGOcXi2-o5_R9cqAcKHPomsPemgRoXoFMAgNskeyUImYqC6rWIhBd-bsvoWqc9AV6ypwSq9FTU~">Manhunt underway after person killed when car hit Berlin crowd</a></h3>
-      <p>A Berlin pride parade was called off and a manhunt is underway after a car crashed into a crowd, killing at least one person. Details still emerging.</p>
-      <div class="src">ABC News AM · Sun 26 Jul (breaking)</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://www.wsj.com/politics/national-security/lindsey-graham-iran-war-netanyahu-call-598b1e85?mod=djem10point">Unreleased documentary footage shows Lindsey Graham&rsquo;s campaign for war with Iran</a></h3>
+    <p>A filmmaker followed the late South Carolina senator for three years, capturing his relationships with Trump and Netanyahu. The footage traces his yearslong push to topple the Iranian regime and how he persuaded Trump to strike — at times pressing for action more aggressive than Netanyahu was prepared to take.</p>
+    <div class="src">WSJ The 10-Point · 26 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://clicks.e.email.abc.net.au/f/a/B5qAeG8wTXKpTVPJ8FQNBw~~/AAQRxRA~/NpgAl4tKi8agjAzkG33xGYBZoTqfhKM1Nb_fwlCeTDQ27rupu2zW5y8Q4yXiTefH73pCNG4d90jXV_knhpbFW_Ye8zrpal3g6K9adaIF5mfrl1jdflSlbVSnOCktudr-TVs7E8vwunRNbBCcKr0eqiBlZxpjJj1d-I5kE6bjQG-ZEuHU1IGUsAY3iJOWATj9GiaKgCFgRGVjDjeNRX0QAK_48F5xTxq5-ny2mH1ffThKMPYn5BIjtV20-85tXpkNkaioTT8gkNyKgY1vpeNU0yYybcvPqZKWUT88L5Zl8R8R2PkIrda3ubThL9S44K5w2Cd9FCVpXpm5FlnND5dMLQquUYLWmiPGPw3fRykilKk~">How two boats with 500 people disappeared almost without trace</a></h3>
-      <p>The disappearance of two boats carrying more than 500 Rohingya asylum seekers off Myanmar brings the number of people reported lost at sea in the region this year to more than 800.</p>
-      <div class="src">ABC News AM · Sun 26 Jul</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://clicks.e.email.abc.net.au/f/a/OPntjaEFmj1iZZ86sZtPwA~~/AAQRxRA~/iuoz4RjSwHk8C-DRPpsLOoph9rDilp7YUBwKa9b0OMO-qib3-ssWUZmmNGiK7h_TxgCM4ZqsJmXKaSynpCdZCZLSU6KEE9z5F6ejEawGOSfNJSpQbMgiQWhYvflxx1RbtXWiFYotWUilouJ-qy0B9kgOIVyB9Z8XtPF1YL6kvnU54e0rATBBJ2QzRVXZzuP3jhQEBnWtSv3zzyNtCjNJfnlpmOYr8l8zXIppe1Brof1BM7cmLjwv_pnV1nBfJlSAiyOV7BtUBJvsbbJ0ytTOrjHRCtu29R2dktKRkgQfBckoTGCI4w-fLF2YuJOtq8Zw8hngvYQ4k2GQRnDwD621dw~~">Berlin Pride attacker shot dead as manhunt ends</a></h3>
+    <p>A van drove into crowds at a Pride event on Saturday, killing at least one person and injuring 29. German police shot the suspect — named as Abdul B, born in Germany in 2005 — after a nationwide manhunt; a person familiar with the investigation says he had previously been looked at over terrorism planning.</p>
+    <div class="src">ABC News AM · 27 Jul, with WSJ · 26–27 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://www.wsj.com/politics/elections/maine-senate-who-is-troy-jackson-platner-5ee6da9c?mod=djem10point">Maine: Troy Jackson poised to become the Democratic Senate nominee</a></h3>
-      <p>The former Maine Senate president inherits a race transformed by Graham Platner's abrupt exit — and must convince voters he can channel the oysterman's populist appeal without his baggage. Maine Democrats picked their nominee at a special convention Saturday (US time).</p>
-      <div class="src">WSJ 10-Point · Sat 25 Jul (US)</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://www.wsj.com/tech/ai/openai-chatbot-biological-weapons-poison-3d808e6c?mod=djem10point">AI chatbots gave hundreds of users step-by-step bioweapon instructions</a></h3>
+    <p>After OpenAI upgraded its chatbot last summer, hundreds of users worldwide asked how to make and deploy biological weapons and poisons — and got instructions simple enough for a high-school biology student. OpenAI banned the accounts but did not alert authorities; no US federal law requires AI companies to restrict or disclose such queries.</p>
+    <div class="src">WSJ The 10-Point &amp; What&rsquo;s News · 26–27 Jul</div>
+  </article>
 
-    <div class="subhead">Business &amp; markets</div>
+  <article class="story">
+    <h3><a href="https://www.wsj.com/world/russia-ukraine-sexual-violence-15f9781d?mod=djem10point">Testimony points to systematic Russian sexual violence against Ukrainian prisoners</a></h3>
+    <p>Interviews with former prisoners, together with Ukrainian prosecutors&rsquo; findings and UN investigations, suggest sexual abuse of Ukrainian men has become a core Russian tactic — and one condoned, even encouraged, by senior Russian officials.</p>
+    <div class="src">WSJ · 26–27 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://www.wsj.com/business/china-us-ai-model-costs-53a12e96?mod=djem10point">Corporate America has decided to stop blowing money on AI</a></h3>
-      <p>Companies are increasingly mixing lower-priced models — including Chinese-built ones — alongside OpenAI and Anthropic products, shopping à la carte instead of locking into one provider. The shift is changing the economics of the AI industry and forcing providers to fight to keep customers.</p>
-      <div class="src">WSJ 10-Point · Sat 25 Jul (US)</div>
-    </div>
+  <article class="story">
+    <h3><a href="https://www.wsj.com/world/poor-countries-are-aging-fast-but-cant-keep-up-with-the-cost-fd83b1cd?mod=djem10point">Poor countries are growing old before they grow rich</a></h3>
+    <p>Elderly populations are expanding fast in developing nations such as Thailand, but without the pension systems and personal savings that support older people in wealthier countries. WSJ photographs show families absorbing the cost of care themselves.</p>
+    <div class="src">WSJ · 26–27 Jul</div>
+  </article>
 
-    <div class="story">
-      <h3><a href="https://www.wsj.com/finance/stocks/wild-markets-week-settles-down-40d27352?mod=djem10point">Markets end a wild week calmer — but with back-to-back weekly losses</a></h3>
-      <p>A week of AI selloffs, soaring oil prices and rising Treasury yields ended quietly, yet the S&amp;P 500 and Nasdaq logged consecutive weekly losses for the first time since March. Also: a lobbying <a href="https://www.wsj.com/tech/trump-apple-micron-china-chips-784bbd3d?mod=djem10point" style="color:var(--forest);text-decoration:none;font-weight:600">fight between Apple and Micron</a> over Chinese memory chips may force Trump to choose between cheaper consumer prices and domestic chipmaking, and Chevron wants Washington's help <a href="https://www.wsj.com/business/energy-oil/chevron-is-trying-to-keep-its-kazak-assets-out-of-the-russia-ukraine-war-f76d8e6f?mod=djem10point" style="color:var(--forest);text-decoration:none;font-weight:600">protecting the pipeline carrying Kazakh oil</a> to the Black Sea after Ukrainian attacks.</p>
-      <div class="src">WSJ 10-Point · Sat 25 Jul (US)</div>
-    </div>
+  <div class="subhead">Business &amp; markets</div>
+  <ul class="bullets">
+    <li>Investors are paying <a href="https://www.wsj.com/finance/stocks/another-bubble-warning-paying-more-for-the-same-stock-in-different-places-a3533ffe?mod=djem10point">as much as 51% more</a> for the same SK Hynix stock in New York than in Seoul — James Mackintosh reads it as froth in the AI trade.</li>
+    <li>Investors overwhelmingly oppose making quarterly reports optional, and firms that drop them <a href="https://www.wsj.com/finance/regulation/investors-dont-want-to-scrap-quarterly-reports-companies-should-think-twice-fed293b0?mod=djem10point">risk signalling the wrong thing</a>, writes Jonathan Weil.</li>
+    <li>Roughly $600 million went on <a href="https://www.wsj.com/business/see-the-600-million-world-of-executive-perks-e8759807?mod=djemwhatsnews">executive and director perks</a> at 1,500 of the largest US public companies, from private ranch vacations to concierge medicine.</li>
+    <li>The week ahead: Netanyahu meets Trump in Washington today; the Fed&rsquo;s rate decision lands Wednesday; PCE inflation and the first Q2 GDP estimate arrive Thursday.</li>
+  </ul>
 
-    <div class="story">
-      <h3><a href="https://www.wsj.com/business/media/paramount-agrees-to-pause-its-warner-bros-merger-88ae1de1?mod=djem10point">Paramount puts Warner Bros. Discovery merger on hold</a><span class="followup">follow-up</span></h3>
-      <p>Paramount says the merger is paused until legal challenges are resolved or 1 June 2027, whichever comes first — after a judge temporarily blocked the deal earlier this week.</p>
-      <div class="src">WSJ 10-Point · Sat 25 Jul (US)</div>
-    </div>
+  <div class="subhead">Also today</div>
+  <ul class="bullets">
+    <li>Trump keeps threatening Iran&rsquo;s Pickaxe Mountain, but experts say <a href="https://www.wsj.com/world/middle-east/it-isnt-just-pickaxe-trumps-other-potential-nuclear-targets-in-iran-975e960e?mod=djem10point">several other nuclear sites could also be targets</a>.</li>
+    <li>Iran&rsquo;s <a href="https://www.wsj.com/world/middle-east/iran-kheibar-shekan-missile-5776a6e4?mod=djemwhatsnews">Kheibar Shekan missile</a> — cheap, accurate and lethal — is getting more dangerous.</li>
+    <li>Brazil has <a href="https://www.wsj.com/world/americas/brazil-denies-visas-to-u-s-officials-over-election-interference-fears-62f2d8c4?mod=djem10point">denied visas to two senior Trump officials</a> over concerns they sought to undermine confidence in its electronic voting before October&rsquo;s election.</li>
+    <li>Ohio: Sherrod Brown&rsquo;s <a href="https://www.wsj.com/politics/elections/ohio-senate-election-sherrod-brown-ae49d875?mod=djem10point">bid to win back his Senate seat</a> tests whether Democrats can hold blue-collar voters without losing young progressives; in Maine, the party has <a href="https://www.wsj.com/politics/maine-democrats-choose-troy-jackson-to-replace-graham-platner-in-key-senate-race-a568f48c?mod=djemwhatsnews">picked Troy Jackson</a> to replace Graham Platner.</li>
+    <li>In India, a student-led protest movement scored a rare win over the Modi government — it started with leaked exam papers and <a href="https://clicks.e.email.abc.net.au/f/a/q17vSpqUQisZFgBWfKtxgA~~/AAQRxRA~/ACOkB-YZ9aN_BlNJTioR9mWCu34rYBbGu1nQPh4VfUCl3IdahTKDHxa_j80s98cMASOktiEh6sTPNNKL6oXrLDaHQp-y0QUBZKswYBstdw6m72R2-Y2Vumzxojos3-WsVaFvWC-RT3Xu7Oe6-1xNrywofe0OCe4sRL2ILggkqluwiJ-bg55aZnH8jeYjvaD8DEOzEBs1fX2IIQucB89lCqpEYAdVEv46r_TZ54oBWPvE2IIWJnu5kTVrG4qL_WkiEDeGsqSgHrB4lvi3aRs4KmPX2PR2qMCE8EvejJAcGTOzlqEbAoTjFpqBqDIhvMhEwHfh9oxjtWuYPotzr1qPcNO-U081EB5KY1NO8Yw_uvTPOA1ydFRo5E8A9FsN4pqK">a seven-word post</a>.</li>
+    <li>A pile of White House excavation dirt is now <a href="https://www.wsj.com/us-news/a-fight-over-dirt-spans-two-of-trumps-controversial-d-c-projects-0adcf310?mod=djem10point">at the centre of a legal fight</a> over Trump&rsquo;s plan to overhaul a public DC golf course.</li>
+  </ul>
 
-    <div class="subhead">Also today</div>
-    <ul class="also">
-      <li><a href="https://www.wsj.com/politics/elections/five-major-moments-from-president-trumps-speech-at-the-correspondents-dinner-fa6af6f8?mod=djem10point">The White House Correspondents' dinner got its do-over</a> — held three months after the original was cut short by the attempted assassination of Trump. <span class="lsrc">WSJ</span></li>
-      <li><a href="https://www.wsj.com/us-news/law/former-star-supreme-court-lawyer-gets-six-year-sentence-in-tax-case-6bbd7c07?mod=djem10point">Former star Supreme Court lawyer Thomas Goldstein sentenced to six years</a> for tax evasion and mortgage fraud. <span class="lsrc">WSJ</span></li>
-      <li><a href="https://www.wsj.com/politics/policy/mexico-cattle-import-screwworm-7579dc50?mod=djem10point">US set to resume cattle imports from Mexico</a>, lifting the ban meant to stem the New World screwworm. <span class="lsrc">WSJ</span></li>
-      <li><a href="https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc?mod=djem10point">Taylor Farms asked the White House to delay a recall</a> tied to the cyclospora outbreak — the same outbreak behind Taco Bell's scramble covered earlier this week. <span class="lsrc">WSJ · follow-up</span></li>
-      <li><a href="https://www.wsj.com/world/the-secret-trip-that-turned-laura-loomer-from-ukraine-skeptic-to-supporter-a8bd2dcc?mod=djem10point">Laura Loomer says she was duped by Russian misinformation</a> — after a secret trip to Ukraine, the right-wing provocateur now calls Kyiv an "essential ally". <span class="lsrc">WSJ</span></li>
-      <li>Sunday sport: the Tour de France concludes in Paris and F1 races the Hungarian Grand Prix. <span class="lsrc">WSJ</span></li>
-    </ul>
+  <div class="subhead">Worth a detour</div>
+  <ul class="bullets">
+    <li>The WSJ culture desk&rsquo;s <a href="https://www.wsj.com/arts-culture/television/20-things-to-watch-read-stream-and-catch-up-on-during-your-august-downtime-0cc0a766?mod=djem10point">20 things to watch, read and stream</a> through August.</li>
+  </ul>
+</section>
 
-    <div class="subhead">Worth a detour</div>
-    <ul class="also">
-      <li><a href="https://www.wsj.com/us-news/education/is-it-time-to-liquidate-the-study-of-sociology-6b85ac14?mod=djem10point">Is it time to liquidate the study of sociology?</a> — the Saturday Essay on the discipline's public battle over objective truth versus social change. <span class="lsrc">WSJ</span></li>
-      <li><a href="https://clicks.e.email.abc.net.au/f/a/I7CJusbMPJRT4nEdM1vT-g~~/AAQRxRA~/6xMo31_4fuPOjNcDMbVxij6TAhEWgYtT-I_eFviDLbnw1T6Yvx_jBLyomCutzmEm1ZuAsfvDiUcqiiqTZpwpHbyDQqwWiEbFbG-SMb3N77HHQ72pm_gUUkNgszr8cboN8w--xKsFda_9RSc85mp2Ux0MRCvfnbFWEqgIloRG1zqMbySQl501BI0U7kUCM1FtLDDUbd5ee-MN1KaR5ayOHIDo7cnO9FTdHYBf3XP8Zm5T70P_STDHAOxjSF1--YHlnhTNDKKIvQcGBMJB60iW2VAkRWT0tFLw_9Jn9ugO0B7OUD3pA3UwMkW-WHbOS1ozUlaCpPVOdzjGqN98gyjCzILKsESm6SaE3K5T0_6jmelRooNeMBMzYPpQK2Thb9zd">Prince William's 'manifesto' for the king he will become</a> — what the heir's chosen causes reveal about his future reign. <span class="lsrc">ABC</span></li>
-      <li><a href="https://www.wsj.com/business/kpmg-summer-interns-auditing-ai-training-941ad5cc?mod=djem10point">Inside KPMG's boot camp for the AI era</a> — scavenger hunts and whodunnit fraud cases reshape how new auditors are trained. <span class="lsrc">WSJ</span></li>
-      <li><a href="https://www.wsj.com/business/see-the-600-million-world-of-executive-perks-e8759807?mod=djem10point">The $600 million world of executive perks</a> — personal security, not private jets, is now the biggest line item. <span class="lsrc">WSJ</span></li>
-      <li><a href="https://www.wsj.com/lifestyle/cars/dan-neil-is-driven-to-pure-bliss-in-the-lotus-emira-8553f2c2?mod=djem10point">Dan Neil is driven to pure bliss in the Lotus Emira 420 Sport</a> — one of the last lightweight, mid-engine sports cars of its kind. <span class="lsrc">WSJ</span></li>
-    </ul>
-  </section>
+<section class="section">
+  <div class="section-head"><span class="tick"></span><h2>China Watch · China</h2></div>
 
-  <!-- ============ CHINA WATCH ============ -->
-  <section class="section">
-    <div class="sechead"><span class="tick"></span><h2>China Watch</h2><span class="geo">· China</span></div>
-    <div class="empty">No new China coverage this morning — Sinocism doesn't publish on weekends and there was no WSJ China this week beyond Tuesday's issue; next Sinocism expected Monday morning. Today's China angle: the Apple–Micron chip fight and Chinese AI models undercutting US pricing, both in World View.</div>
-  </section>
+  <article class="story">
+    <h3><a href="https://www.wsj.com/world/u-s-and-china-are-jockeying-for-drone-supremacy-on-mount-everest-b5750ce2?mod=djem10point">The US and China are racing for drone supremacy on Everest</a></h3>
+    <p>The world&rsquo;s highest peak has become an unlikely proving ground, with American and Chinese operators competing over who can fly supply and rescue missions in its thin air — and set the standard for high-altitude drones.</p>
+    <div class="src">WSJ The 10-Point · 26 Jul</div>
+  </article>
 
-  <footer class="footer">
-    <p><strong>Issues compiled:</strong> ABC News AM (Sun 26 Jul) · WSJ The 10-Point (Sat 25 Jul US edition, arrived Sat evening Sydney).</p>
-    <p><strong>Not received today:</strong> WSJ What's News (no weekend edition; none arrived Thu–Fri this week either) · Sinocism (no weekend issues) · BBC US Politics Unspun (weekly; last issue Wed 22 Jul).</p>
-    <p><strong>New sender discovered:</strong> BBC News Briefing welcome email arrived Sat 25 Jul from <strong>newsbriefing@email.bbc.com</strong> — first proper issue still pending; will be picked up automatically once it lands.</p>
-  </footer>
+  <article class="story">
+    <h3><a href="https://www.wsj.com/business/china-us-ai-model-costs-53a12e96?mod=djemwhatsnews">Corporate America pumps the brakes on AI spending as Chinese model costs fall</a></h3>
+    <p>After a year of near-unchecked outlays, US companies have started slowing AI budgets — with cheaper Chinese models reshaping what buyers expect to pay.</p>
+    <div class="src">WSJ What&rsquo;s News · 27 Jul</div>
+  </article>
+
+  <div class="card">No Sinocism issue since Wednesday 22 July (Wang Huning in Tibet; US officials on Moonshot and distillation; Wang Yi–Rubio). Bill Bishop does not publish on weekends; today&rsquo;s issue had not landed by the time this brief was compiled.</div>
+</section>
+
+<footer>
+  <p><strong>Compiled from:</strong> ABC News AM (27 Jul) · WSJ What&rsquo;s News (27 Jul) · WSJ The 10-Point (26 Jul).</p>
+  <p><strong>Not received:</strong> Sinocism (no issue since 22 Jul — weekend break) · WSJ China (weekly, last 21 Jul) · BBC US Politics Unspun (weekly, last 22 Jul) · BBC News Briefing (sender confirmed as newsbriefing@email.bbc.com; welcome email 25 Jul, first daily issue still pending).</p>
+</footer>
 
 </div>
 </body>
