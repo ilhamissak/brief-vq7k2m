@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Daily Brief — {{DATELINE}}</title>
+<style>
+:root{
+--paper:#F7F1E6;--ink:#23211C;--soft:#5C574D;--faint:#8E877A;
+--forest:#2E6B45;--orange:#E8611C;--rule:#E5DCCB;--chip:#EFE7D6;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+-webkit-font-smoothing:antialiased;line-height:1.5}
+.wrap{max-width:640px;margin:0 auto;padding:28px 20px 56px}
+.masthead{text-align:center;padding-bottom:14px;border-bottom:2px solid var(--forest)}
+.masthead h1{margin:0;font-size:23px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--forest)}
+.dateline{margin-top:7px;font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.section{margin-top:34px}
+.section-head{display:flex;align-items:baseline;gap:9px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+.tick{width:9px;height:9px;background:var(--orange);border-radius:2px;flex:0 0 auto;transform:translateY(-1px)}
+.section-head h2{margin:0;font-size:12.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--ink)}
+.subhead{margin:26px 0 2px;font-size:11.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--faint)}
+.story{padding:16px 0;border-bottom:1px solid var(--rule)}
+.story:last-child{border-bottom:none}
+.story h3{margin:0 0 5px;font-size:16.5px;font-weight:600;line-height:1.32}
+.story h3 a{color:var(--forest);text-decoration:none}
+.story h3 a:hover{text-decoration:underline}
+.story p{margin:0;font-size:14.5px;color:var(--soft)}
+.story p a{color:var(--forest);text-decoration:none}
+.src{margin-top:7px;font-size:12px;color:var(--faint)}
+ul.bullets{list-style:none;margin:10px 0 0;padding:0}
+ul.bullets li{position:relative;padding-left:16px;margin:9px 0;font-size:14.5px;color:var(--soft)}
+ul.bullets li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--orange)}
+ul.bullets a{color:var(--forest);text-decoration:none;font-weight:600}
+ul.bullets a:hover{text-decoration:underline}
+.card{margin-top:14px;padding:14px 16px;background:var(--chip);border-radius:6px;font-size:14px;color:var(--soft)}
+.card a{color:var(--forest);text-decoration:none;font-weight:600}
+.followup{display:inline-block;margin-top:6px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--orange);font-weight:700}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);font-size:12px;color:var(--faint)}
+footer p{margin:0 0 7px}
+.built{margin-top:12px;font-size:11.5px;letter-spacing:.06em;color:var(--faint)}
+.built strong{color:var(--forest);font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <h1>Daily Brief</h1>
+  <div class="dateline">{{DATELINE}} · Sydney</div>
+</header>
+
+{{SECTIONS}}
+
+<footer>
+  <p><strong>Compiled from:</strong> {{COMPILED}}</p>
+  <p><strong>Not received:</strong> {{MISSING}}</p>
+  <p class="built">Built <strong>{{BUILT}}</strong> Sydney time. If this date is not today, the brief did not run — check the Gmail connector and the GitHub token.</p>
+</footer>
+
+</div>
+</body>
+</html>
